@@ -1,0 +1,79 @@
+/* Public map css*/
+* {
+	box-sizing: border-box;
+}
+html, body {
+	margin: 0;
+	padding: 0;
+	background: #3D3D3D;
+}
+body {
+	-webkit-overflow-scrolling: touch;
+	overflow: hidden;
+	color:#3D3D3D;
+	font-family: "Roboto Slab", serif;
+	font-size: 1em;
+	font-weight: 500;
+}
+h1 {
+	-webkit-font-smoothing: antialiased;
+	margin-top: .01em;
+	margin-bottom: .01em;
+	font-family: "Roboto Slab", serif;
+	font-weight: 600;
+	font-size: 2.5em;
+	text-align: center;
+	line-height: 2.6em;
+	letter-spacing: .04em;
+	color: #33A6FF;
+}
+a:link {
+	color: #33A6FF;
+}
+a:visited {
+	color: #33A6FF;
+}
+a:hover {
+	color: #2B90DE;
+}
+a:active {
+	color: #2B90DE;
+}
+#map {
+	position:absolute;
+	top:0;
+	bottom:0;
+	width:100%;
+}
+#astronames {
+	background-color: rgba(42, 42, 42, 0.4);
+	border-radius: 5px;
+	line-height: 1.2 !important;
+	padding: 15px;
+	padding-left: 30px;
+	display: block;
+	text-decoration: none;
+	color: #F8F9F9;
+	font-size: 0.9em;
+	font-weight: 300;
+	z-index: 9999;
+	position: fixed;
+	bottom: 20px;
+	right: 10px;
+}
+#dashbord {
+	background-color: rgba(42, 42, 42, 0.4);
+	border-radius: 5px;
+	line-height: 1.2 !important;
+	padding: 15px;
+	/*padding-left: 30px;*/
+	display: block;
+	text-decoration: none;
+	color: #F8F9F9;
+	font-size: 0.9em;
+	font-weight: 300;
+	z-index: 9999;
+	position: fixed;
+	bottom: 10px;
+	left: 10px;
+}
